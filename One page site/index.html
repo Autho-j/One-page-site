@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" onload="scrollto()">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="icon.png">
+    <title>Lorem</title>
+</head>
+
+<body>
+
+    <div class="nav">
+        <div id="logo">
+            <a href='#home' class='logo'><img src='icon.png'> Lorem</a>
+        </div>
+        <div id="menu">
+            <ul class='menu'>
+                <li>
+                    <a href='#about' class='menu'>ABOUT</a>
+                </li>
+                <li>
+                    <a href='#contact' class='menu'>CONTACT</a>
+                </li>
+                <li>
+                    <a href='#projects' class='menu'>PROJECTS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <main>
+        <div id="home" class='home'>
+            <div>
+                <h1>Art</h1>
+                <h4>is everywhere you <span>notice</span>.</h4>
+                <button type='' class='btn'>Learn more</button>
+            </div>
+            <div>
+            </div>
+        </div>
+        <div id="about" class="about">
+            <h1 class="title">ABOUT</h1>
+            <div class="about-content">
+                <img src="./bg1.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates assumenda nisi,
+                    molestias deserunt architecto accusamus alias earum deleniti hic atque ad doloribus corporis,
+                    maxime aperiam ipsam commodi? Sunt, maxime! Corporis!</p>
+            </div>
+        </div>
+        <div id="contact" class="contact">
+            <h1 class="title">CONTACT</h1>
+            <p>
+                For more info contact me via <a href="mailto:info@authoj.io">email</a>.
+                <br> or Fill up the form below.
+            </p>
+            <input type="name" class="input" placeholder="Name">
+            <input type="email" class="input" placeholder="Email">
+            <textarea name="message" class="text-area" cols="30" rows="10" placeholder="Write a message"></textarea>
+            <button class="input-btn">SEND</button>
+        </div>
+        <div id="projects" class="projects">
+            <h1 class="title">PROJECTS</h1>
+            <div class="glass">
+                <div class="dashboard"></div>
+                <div class="pg-bar">
+                    <div class="rb">
+                        <progress class="ind"></progress>
+                    </div>
+                    <div class="rb">
+                        <progress class="ind"></progress>
+                    </div>
+                    <div class="rb">
+                        <progress class="ind"></progress>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="social">
+                <a href="#facebook" target="_blank"><img src="./fbb.png" alt=""></a>
+                <a href="#github" target="_blank"><img src="./gh.png" alt=""></a>
+                <a href="#twitter" target="_blank"><img src="./tw.png" alt=""></a>
+            </div>
+            <div class="base">
+                <p>&copy 2021 Authoj.io. All Rights Reserved.<br>
+                    Designed by <a href="https://www.github.com/Autho-J/" target="_blank">Authoj</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
